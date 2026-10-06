@@ -1,0 +1,23 @@
+# Credenciais locais
+**/token.dpapi
+**/*.dpapi
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependências e arquivos gerados
+node_modules/
+.pnpm-store/
+.venv/
+venv/
+__pycache__/
+*.log
+
+# Outro projeto local, não utilizado pelo MCP da Ulbra
+/canvas-mcp/
+
+# Configuração pessoal e arquivos do editor
+/.codex/
+/.agents/
+.DS_Store
+Thumbs.db
